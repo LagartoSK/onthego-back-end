@@ -1,0 +1,114 @@
+/****************************************************************************************** 
+    Arquivo sempre será importado na page HOME.css 
+        ( Ou arquivo usado para links de importação.)
+    Exemplo code:     
+        @import url("css_pages/home-at-banner-main.css");    
+    
+******************************************************************************************/
+
+.at-banner-main {
+    position: relative;
+    padding: 150px 0 60px 0;
+    overflow: hidden;
+    min-height: 900px;
+    max-height: 1000px;
+}
+
+.at-banner-main::before {
+    position: absolute;
+    content: "";
+    top: -100px;
+    left: -150px;
+    width: 321px;
+    height: 321px;
+    z-index: 1;
+    background-image: url(/img/round-01.png);
+}
+.at-banner-main__box::before {
+    position: absolute;
+    content: "";
+    bottom: 50px;
+    right: -150px;
+    width: 600px;
+    height: 600px;
+    z-index: 1;
+    background-image: url(/img/round-02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+
+.at-banner-main::after{
+    content: '';
+    width: 100%;
+    height: 85%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(255,33,118);
+    background: linear-gradient(45deg, rgba(255,33,118,1) -10%, rgba(255,127,30,1) 80%, rgba(255,33,118,1) 150%);
+    z-index: -1;
+}
+
+.at-banner-main__box{
+    display: flex;
+}
+
+.at-banner-main__info{
+    max-width: 600px;
+    opacity: 0;
+    transform: translateX(50px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    padding-top: 80px;
+}
+.at-banner-main__title{
+    max-width: 520px;
+    color: var(--bg-color-white);
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: 700;
+}
+.at-banner-main__info__icons{
+    display: flex;
+    gap: 40px;
+}
+.at-banner-main__info__icons__box {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.at-banner-main__info__icons__box{
+    color: var(--bg-color-white);
+    margin-top: 30px;
+}
+.at-banner-main__info__icons__box img{
+    max-height: 45px;
+    margin-bottom: 10px;
+}
+.at-banner-main__info__icons__box h5{
+    font-size: 20px;
+    font-weight: 50px;
+    margin-bottom: 0 !important;
+}
+.at-banner-main__info__icons__box h6{
+    font-size: 14px;
+    margin-bottom: 0 !important;
+}
+
+.at-banner-main__info__btn{
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    margin-top: 40px;
+}
+
+.at-banner-main__img{
+    height: 100%;
+    display: block;
+}
+.at-banner-main__img img{
+    position: absolute;
+    display: block;
+    right: -300px;
+}

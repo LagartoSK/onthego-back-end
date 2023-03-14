@@ -1,0 +1,39 @@
+/****************************************************************************************** 
+    Arquivo sempre será importado na page HOME.css 
+        ( Ou arquivo usado para links de importação.)
+    Exemplo code:     
+        @import url("../css_pages/home/at-info-date.css");
+    
+******************************************************************************************/
+
+.at-info-date{
+    background-image: url(/img/img-info-date.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 0;
+}
+.at-info-date__numbers{
+    max-width: 800px;
+    margin-left: 100px;
+}
+.at-info-date__numbers .row{
+    row-gap: 50px;
+}
+.at-info-date__numbers__content h4{
+    color: var(--bg-color-white);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+.at-info-date__numbers__content span{
+    color: var(--bg-color-white);
+}
+.at-info-date__numbers__box{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.at-info-date__numbers__box img{
+    width: 80px;
+}

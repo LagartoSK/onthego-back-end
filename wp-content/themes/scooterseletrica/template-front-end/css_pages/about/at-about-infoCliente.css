@@ -1,0 +1,111 @@
+/****************************************************************************************** 
+    Arquivo sempre será importado na page HOME.css 
+        ( Ou arquivo usado para links de importação.)
+    Exemplo code:     
+        @import url("../css_pages/about/at-about-infoCliente.css");
+    
+******************************************************************************************/
+
+.at-about-infoCliente{
+    padding: 80px 0;
+}
+
+.at-about-infoCliente__img{
+    display: flex;
+}
+
+.at-about-infoCliente__img__01{
+    display: block;
+    z-index: 999;
+    overflow: hidden;
+    border-radius: 30px 0 0 0;
+}
+.at-about-infoCliente__img__02{
+    display: block;
+    margin-top: 220px;
+    margin-left: -150px; 
+    z-index: 999;
+    overflow: hidden;
+    border-radius: 0 0 30px 0;
+}
+.at-about-infoCliente__box .at-header__section__global{
+    padding-bottom: 20px;
+}
+.at-about-infoCliente__box .at-header__section__global,
+.at-about-infoCliente__box .at-header__section__global .at-title-main{
+    text-align: left;
+    margin: 0;
+}
+.at-about-infoCliente__box .at-header__section__global .at-sub-title-main{
+    padding-left: 20px;
+}
+.at-about-infoCliente__box .at-sub-title-main::before {
+    left: 0px !important;
+}
+
+.at-infoCliente__icons{
+    display: flex;
+    gap: 50px;
+    margin: 20px 0;
+}
+
+.at-infoCliente__icons h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--color-font);
+}
+
+.at-infoCliente__icons__box__header{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 10px;
+}
+.at-infoCliente__icons__box__header figure img{
+    max-height: 50px;
+}
+
+
+.at-about-infoCliente__list{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 10px ;
+    gap: 15px;
+}
+.at-about-infoCliente__list li{
+    font-family: 'Quicksand', sans-serif !important;
+    font-weight: 700;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.at-about-infoCliente__list li span{
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 18px;
+    height: 18px;
+    border: 2px solid transparent;
+    border-radius: 100px;
+    background-color: var(--color-details-secondary);
+}
+.at-about-infoCliente__list li span::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    left: 1px;
+    top: -2px;
+    width: 6px;
+    height: 10px;
+    border-width: 0 2px 2px 0;
+    border-style: solid;
+    transform-origin: bottom left;
+    transform: rotate(45deg);
+    color: var(--bg-color-white);
+} 
+
+.at-about-infoCliente__btn{
+    margin-top: 30px;
+}

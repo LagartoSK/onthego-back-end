@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "flaticon_iconsfa";
+    src: url("./flaticon_iconsfa.ttf?536a1f1b0b4e61a094f03d5e0be510c9") format("truetype"),
+url("./flaticon_iconsfa.woff?536a1f1b0b4e61a094f03d5e0be510c9") format("woff"),
+url("./flaticon_iconsfa.woff2?536a1f1b0b4e61a094f03d5e0be510c9") format("woff2"),
+url("./flaticon_iconsfa.eot?536a1f1b0b4e61a094f03d5e0be510c9#iefix") format("embedded-opentype"),
+url("./flaticon_iconsfa.svg?536a1f1b0b4e61a094f03d5e0be510c9#flaticon_iconsfa") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_iconsfa !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-jogar:before {
+    content: "\f101";
+}
+.flaticon-lupa:before {
+    content: "\f102";
+}
+.flaticon-carrinho:before {
+    content: "\f103";
+}
+.flaticon-estrela:before {
+    content: "\f104";
+}
+.flaticon-seta-direita:before {
+    content: "\f105";
+}
+.flaticon-facebook:before {
+    content: "\f106";
+}
+.flaticon-instagram:before {
+    content: "\f107";
+}
+.flaticon-linkedin:before {
+    content: "\f108";
+}
+.flaticon-youtube:before {
+    content: "\f109";
+}
+.flaticon-certo:before {
+    content: "\f10a";
+}
+.flaticon-whatsapp:before {
+    content: "\f10b";
+}
+.flaticon-pin-de-localizacao:before {
+    content: "\f10c";
+}
+.flaticon-o-email:before {
+    content: "\f10d";
+}
+.flaticon-marketing-de-email:before {
+    content: "\f10e";
+}
+.flaticon-diamante:before {
+    content: "\f10f";
+}
+.flaticon-place:before {
+    content: "\f110";
+}
+.flaticon-24-hours:before {
+    content: "\f111";
+}
+.flaticon-user:before {
+    content: "\f112";
+}
+.flaticon-chat:before {
+    content: "\f113";
+}
+.flaticon-cotacao:before {
+    content: "\f114";
+}
+.flaticon-voltar:before {
+    content: "\f115";
+}
+.flaticon-pasta-aberta:before {
+    content: "\f116";
+}

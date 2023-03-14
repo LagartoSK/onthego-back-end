@@ -1,0 +1,10 @@
+/****************************************************************************************** 
+    Arquivo onde vamos linkar todo CSS do site!
+        SEMPRE ATENTO COM AS LINHAS, QUALQUER ERRO pode influenciar no funcionamento do site
+            SEMPRE DEIXAR SOMENTE AS LINHAS DAS SESSÕES REFERENTE AO TAMPLATE
+    
+******************************************************************************************/
+
+@import url("../css_pages/blog/at-blog-list.css");
+
+@import url("../css_pages/blog/at-blog-single.css");

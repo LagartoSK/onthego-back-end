@@ -1,0 +1,72 @@
+/******************************************************************************************
+    Arquivo sempre será importado na page HOME.css
+        ( Ou arquivo usado para links de importação.)
+    Exemplo code:
+        @import url("../css_pages/default.css/at-breadcrumb.css");
+
+******************************************************************************************/
+
+.at-breadcrumb{
+    min-height: 430px;
+    border-radius: 700px / 70px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    overflow: hidden;
+    background-image: url(../../img/bg-breadcrumb.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: relative;
+    z-index: -2;
+}
+.at-breadcrumb__box {
+    position: relative;
+    z-index: 1;
+    width: 540px;
+    margin: 0 auto;
+    padding: 50px 30px;
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.at-breadcrumb__box:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.95;
+    transform-origin: center;
+    transform: skewX(20deg);
+    z-index: -1;
+    background: rgb(255,33,118);
+    background: linear-gradient(45deg, rgba(255,33,118,1) -10%, rgba(255,127,30,1) 80%, rgba(255,33,118,1) 150%);
+}
+
+.at-breadcrumb__box h1{
+    color: var(--bg-color-white);
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 65px;
+}
+
+.at-breadcrumb__box__list{
+    display: flex;
+    align-items: center;   
+    gap: 10px;
+    font-size: 16px;
+    color: var(--bg-color-white);
+    text-transform: uppercase;
+}
+.at-breadcrumb__box__list a{
+    color: var(--bg-color-white);
+    font-size: 16px;
+}
+.at-breadcrumb__box__list i{
+    font-size: 8px;
+}

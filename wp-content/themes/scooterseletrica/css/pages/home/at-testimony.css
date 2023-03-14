@@ -1,0 +1,87 @@
+/****************************************************************************************** 
+    Arquivo sempre será importado na page HOME.css 
+        ( Ou arquivo usado para links de importação.)
+    Exemplo code:     
+        @import url("../css_pages/home/at-testimony.css");
+    
+******************************************************************************************/
+
+.at-testimony{
+    padding: 70px 0;
+    background-image: url(../../../img/bg-testimony.png);
+}
+
+.at-testimony__box{
+    position: relative;
+}
+.at-testimony__carousel{
+    max-width: 800px;
+
+}
+
+.at-testimony__carousel .swiper-slide{
+    text-align: center;
+}
+.at-testimony__carousel .swiper-slide p{
+    font-size: 22px;
+    line-height: 36px;
+}
+.at-testimony__carousel__box .at-avaliation_star{
+    justify-content: center;
+    margin: 30px 0;
+}
+.at-testimony__carousel__box .at-avaliation_star i{
+    font-size: 25px;
+}
+.at-testimony__carousel__author{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.at-testimony__carousel__author figure img{
+    max-height: 70px;
+}
+.at-testimony__carousel__author__content h5{
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--color-font);
+}
+.at-testimony__carousel__author__content span{
+    color: var(--color-details-secondary);
+    font-size: 17px;
+    font-weight: 500;
+    padding-left: 5px;
+}
+
+.at-testimony__box .swiper-button-next, 
+.at-testimony__box .swiper-rtl .swiper-button-prev{
+    background-color: var(--color-details-secondary);
+    color: var(--bg-color-white) !important;
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 0 0 10px 0;
+    right: 60px !important;
+    transition: .3s ease-out;
+}
+
+.at-testimony__box .swiper-button-prev, 
+.at-testimony__box .swiper-rtl .swiper-button-next{
+    background-color: var(--color-details-secondary);
+    color: var(--bg-color-white) !important;
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 10px 0 0 0;
+    left: 60px !important; 
+    transition: .3s ease-out;
+}
+.at-testimony__box .swiper-button-next:after, 
+.at-testimony__box .swiper-button-prev:after{
+    font-size: 18px !important;
+}
+.at-testimony__box .swiper-button-next:hover, 
+.at-testimony__box .swiper-rtl .swiper-button-prev:hover,
+.at-testimony__box .swiper-button-prev:hover, 
+.at-testimony__box .swiper-rtl .swiper-button-next:hover{
+    background-color: var(--bg-color-black);
+}

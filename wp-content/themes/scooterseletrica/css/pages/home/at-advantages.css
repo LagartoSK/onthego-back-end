@@ -1,0 +1,84 @@
+/****************************************************************************************** 
+    Arquivo sempre será importado na page HOME.css 
+        ( Ou arquivo usado para links de importação.)
+    Exemplo code:     
+        @import url("../css_pages/home/at-advantages.css");  
+    
+******************************************************************************************/
+
+.at-advantages{
+    max-width: 1200px;
+    margin: auto;
+    padding: 70px 0;
+}
+.at-advantages__box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.at-advantages__box__center{
+    max-width: 44%;
+}
+.at-advantages__box__center figure img{
+    height: auto;
+    max-width: 850px;
+    margin: auto;
+    margin-left: -160px;
+    z-index: -1;
+}
+.at-advantages__box__left,
+.at-advantages__box__rigth{
+    z-index: 2;
+    max-width: 27.5%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.at-advantages__box__info{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.at-advantages__box__left .at-advantages__box__infoTxt{
+    text-align: right;
+}
+
+.at-advantages__box__rigth .at-advantages__box__infoTxt{
+    text-align: left;
+}
+.at-advantages__box__infoTxt{
+    max-width: 70%;
+}
+.at-advantages__box__infoTxt h3{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 5px;
+    color: var(--color-font);
+}
+.at-advantages__box__infoTxt p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--color-font-gray);
+}
+.at-advantages__box__infoIcon{
+    max-width: 30%;
+    background-color: var(--color-details-secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 10px;
+    border-radius: 20px 0 20px 0;
+    transition: .5s ease-in-out;
+}
+.at-advantages__box__infoIcon:hover{
+    background-color: var(--color-font);
+    border-radius: 0px 20px 0px 0px;
+}
+.at-advantages__box__infoIcon img{
+    max-height: 50px;
+}

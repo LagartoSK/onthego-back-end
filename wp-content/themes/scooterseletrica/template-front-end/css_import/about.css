@@ -1,0 +1,12 @@
+/****************************************************************************************** 
+    Arquivo onde vamos linkar todo CSS do site!
+        SEMPRE ATENTO COM AS LINHAS, QUALQUER ERRO pode influenciar no funcionamento do site
+            SEMPRE DEIXAR SOMENTE AS LINHAS DAS SESSÕES REFERENTE AO TAMPLATE
+    
+******************************************************************************************/
+
+@import url("../css_pages/about/at-about-infoCliente.css");
+
+@import url("../css_pages/about/at-about-testimony.css");
+
+@import url("../css_pages/about/at-about-statistic.css");

@@ -1,0 +1,24 @@
+/******************************************************************************************
+    Arquivo onde vamos linkar todo CSS do site!
+        SEMPRE ATENTO COM AS LINHAS, QUALQUER ERRO pode influenciar no funcionamento do site
+            SEMPRE DEIXAR SOMENTE AS LINHAS DAS SESSÕES REFERENTE AO TEMPLATE
+
+******************************************************************************************/
+
+@import url("home/at-banner-main.css");
+
+@import url("home/at-advantages.css");
+
+@import url("home/at-tabs-product.css");
+
+@import url("home/at-info-date.css");
+
+@import url("home/at-product-accessories.css");
+
+@import url("home/at-cta.css");
+
+@import url("home/at-instagram.css");
+
+@import url("home/at-testimony.css");
+
+@import url("shop/at-shop.css");

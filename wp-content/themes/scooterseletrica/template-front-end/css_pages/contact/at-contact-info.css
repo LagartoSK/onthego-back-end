@@ -1,0 +1,44 @@
+/****************************************************************************************** 
+    Arquivo sempre será importado na page HOME.css 
+        ( Ou arquivo usado para links de importação.)
+    Exemplo code:     
+        @import url("../css_pages/contact/at-contact-info.css");
+    
+******************************************************************************************/
+
+.at-contact-info{
+    padding: 80px 0;
+}
+
+.at-contact-info__box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 30px;
+    border-radius: 20px 0;
+    box-shadow: 0 0 20px 0 rgb(92 107 149 / 11%);
+    transition: .3s ease-in-out;
+    gap: 20px;
+}
+.at-contact-info__box i{
+    color: var(--color-details-secondary);
+    font-size: 70px;
+}
+.at-contact-info__box:hover{
+    background-color: var(--bg-color-black);
+}
+
+.at-contact-info__box h3{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.at-contact-info__box p{
+    color: var(--color-font-gray);
+    font-size: 16px;
+}
+.at-contact-info__box:hover h3,
+.at-contact-info__box:hover p{
+    color: var(--bg-color-white);
+}
+

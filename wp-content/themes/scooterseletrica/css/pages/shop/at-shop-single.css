@@ -1,0 +1,166 @@
+/****************************************************************************************** 
+    Arquivo sempre será importado na page HOME.css 
+        ( Ou arquivo usado para links de importação.)
+    Exemplo code:     
+        @import url("../css_pages/shop/at-shop-single.css");
+    
+******************************************************************************************/
+
+.at-shop-single{
+    max-width: 900px;
+    margin: auto;
+    padding: 80px;
+}
+.at-shop-single .row{
+    align-items: center;
+}
+.at-shop-single__info__price span {
+    color: var(--color-details-secondary);
+    font-weight: 800;
+    font-size: 28px;
+    margin: 5px 0;
+    display: block;
+}
+.at-shop__product__carousel{
+    display: flex;
+    justify-content: center;
+}
+.at-shop-single .col-xl-6 {
+    position: relative;
+}
+
+
+.at-shop-single__info {
+    padding-left: 20px;
+}
+.at-shop-single__info h2{
+    max-width: 300px;
+    font-size: 40px;
+    line-height: 1;
+    font-weight: 700;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+    color: var(--color-font);
+}
+
+.at-shop-single__info__footer{
+    margin-top: 15px;
+}
+.at-shop-single__info__addCart form{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.at-shop-single__info__addCart input{
+    border: 1px solid #ccc;
+    outline: 0;
+    padding: 14px 5px;
+    line-height: 19px;
+    height: auto !important;
+    max-width: 60px;
+}
+.at-shop-single__info__addCart button{
+    border: none !important;
+    padding: 14px 30px !important;
+    background-color: var(--color-details-secondary);
+    color: var(--bg-color-white);
+    transition: .4s ease;
+}
+.at-shop-single__info__addCart button:hover{
+    background-color: var(--color-font);
+    border: none !important;
+}
+.at-shop-single__info__footer span{
+    padding: 40px 0;
+    display: block;
+    color: var(--color-font);
+}
+.at-shop-single__info__footer span a{
+    color: var(--color-font);
+    font-weight: 500;
+    font-size: 17px;
+    text-decoration: underline;
+}
+.at-shop-single__info__footer .footer__social__midia{
+    padding-top: 0px !important;
+}
+
+.at-shop__testimony{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    padding-bottom: 30px;
+}
+.at-shop__testimony .at-avaliation_star{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.at-shop__testimony header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+.at-shop__testimony header h5{
+    padding: 0 !important;
+    margin: 0 !important;
+    font-size: 17px;
+    font-weight: 800;
+}
+.at-shop__testimony header span{
+    font-style: italic;
+    font-size: 16px;
+}
+.at-shop__testimony figure{
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.at-nav__shop__tabs__list{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 80px 0 40px 0;
+}
+.at-nav__shop__tabs__list button{
+    background-color: transparent !important;
+    border: none !important;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--color-font);
+    opacity: .5;
+    transition: .3s ease-in-out;
+}
+.at-nav__shop__tabs__list .nav-item button:hover{
+    color: var(--color-font);
+    opacity: 1;
+}
+.nav-link:focus, .nav-link:hover {
+    color: var(--color-font);
+}
+.at-nav__shop__tabs__list .nav-item button.active{
+    color: var(--color-font);
+    opacity: 1;
+}
+.at-nav__shop__tabs .tab-content p{
+    margin-bottom: 15px;
+}
+
+.at-shop__product__related{
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 80px;
+}
+.at-shop__product__related header{
+    text-align: center;
+    padding: 30px 0;
+}
+.at-shop__product__related header h2{
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -1px;
+    font-weight: 700;
+}

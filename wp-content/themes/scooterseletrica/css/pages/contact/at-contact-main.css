@@ -1,0 +1,147 @@
+/****************************************************************************************** 
+    Arquivo sempre será importado na page HOME.css 
+        ( Ou arquivo usado para links de importação.)
+    Exemplo code:     
+        @import url("../css_pages/contact/at-contact-main.css");
+    
+******************************************************************************************/
+.at-contact-main{
+    background: linear-gradient(45deg, rgba(255,33,118,1) -10%, rgba(255,127,30,1) 80%, rgba(255,33,118,1) 150%);
+    position: relative;
+    z-index: 1;
+    padding: 80px 0;
+
+}
+.at-contact-main .container{
+    max-width: 1200px;
+}
+.at-contact-main::before{
+    content: '';
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background-color: var(--bg-color-gray);
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.at-contact-main__info {
+    max-width: 500px;
+}
+.at-contact-main__info header span{
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: .5px;
+    position: relative;
+    padding-left: 25px;
+}
+.at-contact-main__info header span::before{
+    position: absolute;
+    content: "";
+    top: 2px;
+    width: 10px;
+    height: 10px;
+    margin-left: -20px;
+    border-radius: 50%;
+    background-color: var(--bg-color-white);
+}
+.at-contact-main__info header h3{
+    color: var(--bg-color-white);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 20px;
+}
+.at-contact-main__info header p{
+    color: var(--bg-color-white);
+    max-width: 350px;
+}
+.at-contact-info__content__phone{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.at-contact-info__content__phone figure{
+    overflow: hidden;
+    border-radius: 100px;
+    border: 4px solid var(--bg-color-white);
+}
+.at-contact-info__content__phone:hover figure {
+    animation: jump 0.5s ease-out;
+}
+
+@keyframes jump {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0); }
+}
+.at-contact-info__content__phone span{
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: .5px;
+    position: relative;
+}
+.at-contact-info__content__phone h3{
+    color: var(--bg-color-white);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+}
+.at-contact-info__content__timeOpen p{
+    color: var(--bg-color-white);
+    line-height: 30px;
+}
+
+.at-contact-info__content__timeOpen a{
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: .5px;
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.at-contact-info__content__timeOpen a i{
+    font-size: 22px;
+}
+
+.at-contact-main__box__form{
+    background-color: #fff;
+    margin-left: -100px;
+    padding: 55px;
+    border-radius: 20px;
+    z-index: 999;
+}
+.at-contact-main__box__form form .row{
+    row-gap: 30px;
+}
+.at-contact-main__box__form form input,
+.at-contact-main__box__form form textarea{
+    width: 100%;
+    height: 55px;
+    font-size: 15px;
+    padding: 0 30px;
+    background-color: var(--bg-color-white);
+    border-radius: 6px;
+    color: var(--color-font-gray);
+    border: 1px solid #d3d3d3;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, .at-contact-main__box__form form textarea:focus {
+    border-color: var(--color-details-secondary);
+}
+
+.at-contact-main__box__form form textarea{
+    height: auto !important;
+    padding: 20px;
+}
+.at-contact-map iframe{
+    width: 100%;
+    max-height: 400px;
+    margin-bottom: -10px;
+}

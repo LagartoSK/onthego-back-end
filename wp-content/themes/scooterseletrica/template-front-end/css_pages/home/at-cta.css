@@ -1,0 +1,83 @@
+/****************************************************************************************** 
+    Arquivo sempre será importado na page HOME.css 
+        ( Ou arquivo usado para links de importação.)
+    Exemplo code:     
+        @import url("../css_pages/home/at-cta.css");
+    
+******************************************************************************************/
+
+.at-cta{
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: -70px;
+    z-index: 999;
+    position: relative;
+}
+.at-cta__box{
+    background-color: var(--color-details-secondary);
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    border-bottom: 2px solid var(--color-font);
+}
+.at-cta__box__btn,
+.at-cta__box__info{
+    width: 40%;
+    text-align: center;
+}
+
+.at-cta__box__info h5,
+.at-cta__box__info h6{
+    color: var(--bg-color-white);
+}
+
+.at-cta__box__info h5{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.at-cta__box__info h6{
+    font-size: 14px;
+}
+
+.at-cta__box__separator span{
+    color: var(--bg-color-white);
+    position: relative;
+}
+.at-cta__box__separator span::after{
+    content: '';
+    width: 1px;
+    height: 30px;
+    background-color: var(--bg-color-white);
+    position: absolute;
+    display: block;
+    bottom: -35px;
+    left: 50%;
+}
+
+.at-cta__box__separator span::before{
+    content: '';
+    width: 1px;
+    height: 30px;
+    background-color: var(--bg-color-white);
+    position: absolute;
+    display: block;
+    top: -35px;
+    left: 50%;
+}
+.at-cta__box__btn a{
+    border: 1px solid var(--bg-color-white);
+    color: var(--bg-color-white);
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: 700;
+    transition: .3s ease-out;
+}
+
+.at-cta__box__btn a:hover{
+    background-color: var(--color-font);
+    border: 1px solid var(--color-font);
+}

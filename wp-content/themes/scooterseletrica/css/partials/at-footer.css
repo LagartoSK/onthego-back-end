@@ -1,0 +1,160 @@
+/****************************************************************************************** 
+    Arquivo sempre será importado na page HOME.css 
+        ( Ou arquivo usado para links de importação.)
+    Exemplo code:     
+        @import url("../css_pages/home/at-footer-main.css");
+    
+******************************************************************************************/
+
+.at-footer-main{
+    background-color: var(--bg-color-black);
+    padding: 100px 0 40px 0;
+}
+
+.at-footer-main_box h4{
+    color: var(--bg-color-white);
+    font-size: 19px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.at-footer__logo__box{
+    padding-right: 50px;
+}
+.at-footer__logo{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.at-footer-main_box p{
+    color: var(--color-font-gray);
+    font-size: 16px;
+}
+.footer__social__midia{
+    display: flex;
+    gap: 10px;
+    padding-top: 30px;
+}
+.footer__social__midia li {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--color-font-gray);
+    transition: .2s ease-in;
+    padding: 5px;
+}
+.footer__social__midia li a{
+    font-size: 17px;
+    color: var(--color-font-gray);
+    line-height: 0;
+}
+.footer__social__midia li:hover{
+    color: var(--bg-color-white);
+    background-color: var(--color-details-secondary);
+    border: 1px solid var(--color-details-secondary);
+}
+
+.footer__social__midia li:hover a{
+    color: var(--bg-color-white);
+}
+
+.at-footer-main_box__location__box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    padding-right: 80px;
+}
+.at-footer-main_box__location__box h5{
+    color: var(--bg-color-white);
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+
+.at-footer__links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.at-footer__links li a{
+    color: var(--color-font-gray);
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: .2s ease-in;
+}
+.at-footer__links li a:hover{
+    color: var(--bg-color-white);
+}
+.at-footer__links li a i{
+    font-weight: 900;
+    font-size: 22px;
+    color: var(--bg-color-white);
+}
+
+.at-footer__address{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.at-footer__address li a{
+    color: var(--color-font-gray);
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: .2s ease-in;
+}
+.at-footer__address li a i{
+    font-weight: 900;
+    font-size: 17px;
+    color: var(--bg-color-white);
+}
+
+.at-footer__number__phone{
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--bg-color-white);
+}
+
+.at-footer__newsletter{
+    padding-top: 30px;
+}
+.footer__newsletter__input{
+    border: solid 1px #555;
+    border-radius: 2px;
+}
+.footer__newsletter__input form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__newsletter__input form input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    padding: 10px 15px;
+}
+.footer__newsletter__input form input:focus-visible{
+    outline: 0px;
+}
+.footer__newsletter__input form button{
+    line-height: 0 !important;
+    background-color: transparent;
+    border: none;
+    color: var(--color-details-secondary);
+    font-size: 22px;
+    padding-right: 15px;
+}
+
+.at-footer__copy{ 
+    text-align: center;
+    padding-top: 50px;
+}
+.at-footer__copy p{ 
+    font-size: 17px;
+    color: var(--bg-color-white);
+}

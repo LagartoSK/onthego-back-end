@@ -1,0 +1,19 @@
+/****************************************************************************************** 
+    Arquivo sempre será importado na page HOME.css 
+        ( Ou arquivo usado para links de importação.)
+    Exemplo code:     
+        @import url("../css_pages/home/at-instagram.css");
+    
+******************************************************************************************/
+
+.at-instagram{
+    background-color: var(--bg-color-gray);
+    padding: 120px 0 90px 0;
+    text-align: center;
+    z-index: 988;
+    
+    border-radius: 700px / 70px;
+
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}

@@ -1,0 +1,89 @@
+/****************************************************************************************** 
+    Arquivo sempre será importado na page HOME.css 
+        ( Ou arquivo usado para links de importação.)
+    Exemplo code:     
+        @import url("../css_pages/about/at-about-statistic.css");
+    
+******************************************************************************************/
+
+.at-about-statistic__box{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.at-about-statistic__box figure img{
+    max-height: 80px;
+}
+.at-about-statistic__body{
+    background-color: var(--bg-color-black);
+    padding: 80px;
+    margin-top: -150px;
+    border-radius: 60px 0 60px 0;
+}
+.at-about-statistic__box__body h3{
+    color: var(--bg-color-white);
+    font-size: 45px;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+}
+.at-about-statistic__box__body .span-number{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.at-about-statistic__box__body span{
+    color: var(--bg-color-white);
+}
+
+/* quick-help */
+.at-about-quick-help{
+    padding: 80px 0;
+}
+.at-about-quick-help__card{
+    text-align: center;
+    padding: 0 40px;
+}
+.at-about-quick-help__card:hover figure{     
+    transform: rotateY(-360deg);
+    transition: all 0.9s ease 0s;
+}
+.at-about-quick-help__box{
+    padding: 60px 0;
+}
+.at-about-quick-help__card figure img{
+    max-height: 80px;
+    margin-bottom: 20px;
+}
+
+.at-about-quick-help__card figure{
+    position: relative;
+    margin-bottom: 10px;
+}
+.at-about-quick-help__card figure::before {
+    position: absolute;
+    content: "";
+    left: calc(50% - 75px);
+    top: -30px;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: var(--bg-color-gray);
+}
+
+.at-about-quick-help__card__content h4{
+    font-family: 'Quicksand', sans-serif !important;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    color: var(--);
+    
+}
+
+.at-about-quick-help__card__content h4 span{
+    color: var(--color-details-secondary);
+}
+/* quick-help */

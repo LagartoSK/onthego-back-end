@@ -1,0 +1,103 @@
+/******************************************************************************************
+	Arquivo sempre será importado na page HOME.css
+		( Ou arquivo usado para links de importação.)
+	Exemplo code:
+		@import url("../css_pages/blog/at-blog-list.css");
+
+******************************************************************************************/
+
+.at-blog-list{
+	padding: 80px 0;
+}
+
+.at-blog-list .row{
+	row-gap: 30px;
+}
+
+.at-blog-list__box {
+	position: relative;
+}
+.at-blog-list__box figure{
+	overflow: hidden;
+	border-radius: 30px 0;
+	transition: all 0.5s ease 0s;
+}
+.at-blog-list__box figure img {
+	transform: scale(1);
+	transition: all 0.5s ease 0s;
+}
+.at-blog-list__box:hover  figure {
+
+	border-radius: 0 30px;
+}
+.at-blog-list__box:hover  figure img {
+	transform: scale(1.2);
+}
+.at-blog-list__box__info__date{
+	position: absolute;
+	top: 9px;
+	right: 9px;
+	width: 70px;
+	height: 70px;
+	color: #fff;
+	font-size: 13px;
+	line-height: 20px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	padding: 15px 20px;
+	text-align: center;
+	background-color: var(--color-details-secondary);
+	border-radius: 20px 0;
+	display: inline-block;
+	-webkit-transition: all .25s ease-in-out;
+	transition: all .25s ease-in-out;
+}
+
+.at-blog-list__box:hover  .at-blog-list__box__info__date {
+	background-color: var(--color-font);
+	border-radius: 0 20px;
+}
+
+.at-blog-list__box__info__post{
+	margin-top: 20px;
+	display: flex;
+	gap: 15px;
+}
+.at-blog-list__box__info__post i{
+	color: var(--color-details-secondary);
+	padding-right: 3px;
+}
+.at-blog-list__box__info__post span{
+	color: var(--color-font-gray);
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.at-blog-list__box__body h2{
+	font-size: 24px;
+	line-height: 30px;
+	margin: 20px 0;
+	font-weight: 700;
+}
+
+.at-blog-list__box__body h2 a{
+	transition: all .25s ease-in-out;
+	color: var(--color-font);
+
+}
+
+.at-blog-list__box__body h2 a:hover{
+	color: var(--color-details-secondary);
+}
+
+.at-blog-list__box__body .btn-main_page{
+	background-color: transparent;
+	color: var(--color-font);
+	border: 1px solid var(--color-font);
+}
+.at-blog-list__box__body .btn-main_page:hover{
+	color: var(--bg-color-white);
+	border: 1px solid var(--color-details-secondary);
+	background-color: var(--color-details-secondary);
+}

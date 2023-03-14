@@ -1,0 +1,122 @@
+/****************************************************************************************** 
+    Arquivo sempre será importado na page HOME.css 
+        ( Ou arquivo usado para links de importação.)
+    Exemplo code:     
+        @import url("../css_pages/about/at-about-testimony.css");
+    
+******************************************************************************************/
+
+.at-about-testimony{
+    background-color: var(--bg-color-gray);
+    padding: 80px 0 220px 0;
+}
+.at-about-testimony .swiper{
+    padding: 80px 0 !important;
+}
+.at-about-testimony__box{
+    padding: 60px 40px 0;
+    position: relative;
+    background-color: var(--bg-color-white);
+    text-align: center;
+    border-radius: 20px 0;
+    box-shadow: 0 15px 40px 0 rgb(92 107 149 / 8%);
+    transition: .3s ease-out;
+}
+.at-about-testimony__box:hover{
+    background-color: var(--bg-color-black);
+    border-radius: 0 20px;
+}
+.at-about-testimony__box::after {
+    position: absolute;
+    content: '\f114';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 50%;
+    width: 75px;
+    height: 75px;
+    color: #fff;
+    font-size: 34px;
+    line-height: 68px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    font-family: 'flaticon_iconsfa';
+    box-shadow: 0 0 21px 0 rgb(92 107 149 / 21%);
+    background-color: var(--color-details-secondary);
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 996;
+}
+.at-about-testimony__box__txt{
+    margin: 15px 0;
+}
+.at-about-testimony__box__txt p{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.at-about-testimony__box__author {
+    margin-bottom: 15px;
+}
+.at-about-testimony__box__author h3{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: var(--color-font);
+    transition: .3s ease-out;
+}
+
+.at-about-testimony__box:hover h3{
+    color: var(--bg-color-white);
+}
+.at-about-testimony__box__author span{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    text-transform: uppercase;
+    color: var(--color-details-secondary);
+}
+
+.at-about-testimony__box__avata{
+    display: inline-block;
+    text-align: center;
+    margin-bottom: -47px;
+}
+.at-about-testimony__box__avata img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 4px solid var(--bg-color-white);
+    box-shadow: 0 0 21px 0 rgb(92 107 149 / 21%);
+}
+
+.swiper-pagination{
+    bottom: -2px !important;
+}
+.swiper-pagination-bullet {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 0 !important;
+    position: relative;
+}
+.swiper-pagination-bullet-active {
+    background-color: var(--color-details-secondary) !important;
+    transition: .3s ease-out;
+}
+
+.swiper-pagination-bullet-active::after{
+    position: absolute;
+    content: "";
+    top: -5px;
+    left: -5px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--color-details-secondary);
+    transition: .3s ease-out;
+}
+

@@ -1,0 +1,88 @@
+/****************************************************************************************** 
+    Arquivo sempre será importado na page HOME.css 
+        ( Ou arquivo usado para links de importação.)
+    Exemplo code:     
+        @import url("css_pages/home-at-header-main.css");    
+    
+******************************************************************************************/
+
+.at-header-main .nav-link{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--color-font);
+    transition: .4s ease;
+}
+.at-header-main .navbar-nav{
+    gap: 10px;
+}
+.at-header-main .nav-link.active{
+    color: var(--color-details-secondary);
+
+}
+.at-header-main .nav-link:hover{
+    color: var(--color-details-secondary);
+}
+.at-header-main .navbar-collapse{
+    justify-content: center;
+}
+
+/* Header HOME  */
+.at-header-main__home .nav-link{
+    color: var(--bg-color-white);
+}
+.at-header-main__home .nav-link.active{
+    color: var(--color-font) !important;
+
+}
+.at-header-main__home .nav-link:hover{
+    color: var(--color-font) !important;
+}
+.at-header-main__home .header__icons__search a,
+.at-header-main__home .header__icons__cart a{
+    color: var(--bg-color-white);
+}
+.at-header-main__home .header__icons__search{
+    border-right: 1px solid var(--bg-color-white) !important;
+}
+.at-header-main__home .header__icons__search a:hover,
+.at-header-main__home .header__icons__cart a:hover{
+    color: var(--color-details-secondary) !important;
+}
+.at-header-main__home .btn-main_page:hover{
+    background-color: var(--bg-color-white);
+    color: var(--color-font);
+}
+/* Header HOME  */
+
+.header__icons__box{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+.header__icons__search{
+    border-right: 1px solid var(--color-font);
+    padding-right: 20px;
+}
+.header__icons__cart{
+    padding-left: 20px;
+}
+.header__icons__search a,
+.header__icons__cart a{
+    color: var(--color-font);
+    font-size: 25px;
+    transition: .4s ease;
+}
+.header__icons__search a:hover,
+.header__icons__cart a:hover{
+    color: var(--color-details-secondary);
+}
+
+
+.at-header-main__home{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
